@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 public class Test {
 
-    private static final Logger logger = Logger.getLogger(Test.class);
+    //private static final Logger logger = Logger.getLogger(Test.class);
 
     private Test(){
         //empty constructor
