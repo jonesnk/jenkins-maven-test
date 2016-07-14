@@ -1,9 +1,0 @@
-# Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea/
-.sonar/
-src/main/resources/
-src/test/
-sonar-project.properties
-jenkins-maven-test.iws
-target/
