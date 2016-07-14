@@ -9,7 +9,6 @@ public class Person {
     private String occupation;
     private List<String> children;
 
-
     public Person(){
         //empty constructor
     }
