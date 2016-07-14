@@ -44,7 +44,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!-- Jar file entry point -->
-                            <mainClass>Test</mainClass>
+                            <mainClass>org.jonesnk.com.driver.Test</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                     </archive>
