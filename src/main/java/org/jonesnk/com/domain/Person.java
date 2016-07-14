@@ -6,7 +6,9 @@ public class Person {
     private Integer age;
     private String occupation;
 
-    public Person(){}
+    public Person(){
+        //empty constructor
+    }
 
     public Person(String name, Integer age, String occupation) {
         this.name = name;
