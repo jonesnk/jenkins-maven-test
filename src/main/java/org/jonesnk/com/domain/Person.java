@@ -1,19 +1,24 @@
 package org.jonesnk.com.domain;
 
+import java.util.List;
+
 public class Person {
 
     private String name;
     private Integer age;
     private String occupation;
+    private List<String> children;
+
 
     public Person(){
         //empty constructor
     }
 
-    public Person(String name, Integer age, String occupation) {
+    public Person(String name, Integer age, String occupation, List<String> children) {
         this.name = name;
         this.age = age;
         this.occupation = occupation;
+        this.children = children;
     }
 
     public String getName() {
@@ -40,4 +45,11 @@ public class Person {
         this.occupation = occupation;
     }
 
+    public List<String> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<String> children) {
+        this.children = children;
+    }
 }
