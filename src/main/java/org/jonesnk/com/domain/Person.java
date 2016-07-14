@@ -1,3 +1,4 @@
+package org.jonesnk.com.domain;
 
 public class Person {
 

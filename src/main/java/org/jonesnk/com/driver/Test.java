@@ -1,3 +1,5 @@
+package org.jonesnk.com.driver;
+
 import org.apache.log4j.Logger;
 
 public class Test {
