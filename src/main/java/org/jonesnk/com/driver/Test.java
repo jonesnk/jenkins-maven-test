@@ -1,12 +1,14 @@
 package org.jonesnk.com.driver;
 
+import org.apache.log4j.Logger;
+
 public class Test {
 
-    private Test(){}
+    private static final Logger logger = Logger.getLogger(Test.class);
 
     public static void main (String[] args){
 
-        System.out.println("Hello Jenkins Maven, it's Nicole!");
+        logger.info("Hello Jenkins Maven, it's Nicole!");
 
     }
 }
