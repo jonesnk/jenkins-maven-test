@@ -3,6 +3,8 @@ package org.jonesnk.com.driver;
 
 public class Test {
 
+    private Test(){}
+
 
     public static void main (String[] args){
 
