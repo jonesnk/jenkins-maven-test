@@ -17,4 +17,5 @@ public class AppDataSource extends DriverManagerDataSource implements BeanNameAw
     public Logger getParentLogger() throws SQLFeatureNotSupportedException {
         return null;
     }
+
 }
