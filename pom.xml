@@ -139,6 +139,18 @@
 
         </plugins>
 
+        <resources>
+            <!--
+                Placeholders that are found from the files located in the configured resource
+                directories are replaced with the property values found from the profile
+                specific configuration file.
+            -->
+            <resource>
+                <filtering>true</filtering>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+
 
         <filters>
             <!--
