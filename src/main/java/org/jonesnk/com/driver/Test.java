@@ -7,6 +7,7 @@ public class Test {
     private static final Logger logger = Logger.getLogger(Test.class);
 
     private Test(){
+        //empty constructor
     }
 
     public static void main (String[] args){

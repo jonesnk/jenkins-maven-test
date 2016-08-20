@@ -3,7 +3,6 @@ package org.jonesnk.com.junit;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by bgi056 on 7/16/16.
