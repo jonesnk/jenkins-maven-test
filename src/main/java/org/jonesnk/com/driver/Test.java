@@ -12,7 +12,7 @@ public class Test {
 
     public static void main (String[] args){
 
-        logger.info("Hello Jenkins Maven, it's Nicole! Testing this thing again!!!");
+        logger.info("Hello Jenkins Maven, it's Nicole! Testing this thing again!");
 
     }
 }
