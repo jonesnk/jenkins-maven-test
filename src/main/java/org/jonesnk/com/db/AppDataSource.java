@@ -12,10 +12,12 @@ public class AppDataSource extends DriverManagerDataSource implements BeanNameAw
 
     public void setBeanName(String s) {
 
+        //this method is empty
+
     }
 
-    public Logger getParentLogger() throws SQLFeatureNotSupportedException {
+    /*public Logger getParentLogger() throws SQLFeatureNotSupportedException {
         return null;
-    }
+    }*/
 
 }
